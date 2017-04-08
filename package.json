@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DanielWebDev/week3#readme",
   "dependencies": {
+    "lodash": "^4.17.4",
     "prompt": "^1.0.0"
   }
 }

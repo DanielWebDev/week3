@@ -117,8 +117,12 @@
 // server.listen(5000,'127.0.0.1');
 
 //7 apache-like server
-var fs = require('fs');
+var fs = require('fs');// looks in node's lib fs/index.js
+
 var http = require('http');
+// install lodash
+var = reqwuire('lodash');
+
 // set up socket communtion, http
 var server = http.createServer(function(req,res){
 	console.log(req.url);
